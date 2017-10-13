@@ -1,0 +1,1 @@
+Unpublish-AzureRmCdnEndpointContent -ProfileName Team-14CDN -ResourceGroupName Team-14CDNRG -EndpointName Team-14CDNEP -PurgeContent "/*"
