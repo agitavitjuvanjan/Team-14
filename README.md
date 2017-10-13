@@ -1,4 +1,4 @@
-# gatsby-starter-default
+# Modern Application
 The modern web application
 http://modern-app.azurewebsites.net/
 
