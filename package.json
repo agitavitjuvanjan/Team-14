@@ -1,15 +1,16 @@
 {
-  "name": "modern-app",
-  "description": "Modern web app",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "author": "Team14 Agitavit",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-	"gatsby": "1.9.50",
-	"gatsby-link": "^1.6.17",
-    "gatsby-plugin-react-helmet": "^1.0.5",
-	"gatsby-cli": "^1.1.10",
-	"curl": "0.1.4",
-	"jq.node": "2.0.0"
+    "gatsby": "1.9.50",
+    "gatsby-cli": "^1.1.10",
+    "gatsby-link": "^1.6.17",
+    "gatsby-plugin-catch-links": "^1.0.9",
+    "gatsby-plugin-react-helmet": "^1.0.6",
+    "gatsby-source-filesystem": "^1.5.4",
+    "gatsby-transformer-remark": "^1.7.15"
   },
   "keywords": [
     "gatsby"
@@ -18,7 +19,7 @@
   "main": "n/a",
   "scripts": {
     "build": "node_modules/.bin/gatsby build",
-	"serve": "node_modules/.bin/gatsby serve",
+    "serve": "node_modules/.bin/gatsby serve",
     "develop": "node_modules/.bin/gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
