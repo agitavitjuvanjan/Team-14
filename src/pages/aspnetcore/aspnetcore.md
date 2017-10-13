@@ -1,10 +1,10 @@
 ---
-path: "/asp-net-core"
+path: "/aspnetcore"
 date: "2017-07-12T17:12:33.962Z"
 title: "ASP.NET Core"
 ---
 
->ASP. NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.
+> ASP. NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications.
 
 ## Features:
 ## MVC
