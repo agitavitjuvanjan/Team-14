@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+	"gatsby": "^1.9.45"
   },
   "keywords": [
     "gatsby"
