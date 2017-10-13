@@ -1,5 +1,5 @@
 {
-  "name": "Modern App",
+  "name": "modern-app",
   "description": "Modern web app",
   "version": "1.0.0",
   "author": "Team14 Agitavit",
@@ -14,7 +14,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "Agitavit",
+  "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "node_modules/.bin/gatsby build",
