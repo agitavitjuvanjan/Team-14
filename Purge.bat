@@ -20,10 +20,10 @@ IF NOT DEFINED CLIENT_SECRET (
 echo 4. Purging CDN of all cached files
 
 :: You need to have extracted cURL files into the below location
-SET CURL_CMD="%DEPLOYMENT_SOURCE%\build\curl-7.55.1-win64-mingw\bin\curl.exe"
+SET CURL_CMD="$(Build.Repository.LocalPath)\build\curl-7.55.1-win64-mingw\bin\curl.exe"
 
 :: You need to have jq file in the below location
-SET JQ_CMD="%DEPLOYMENT_SOURCE%\build\jq\jq-win64.exe" -r
+SET JQ_CMD="$(Build.Repository.LocalPath)\build\jq\jq-win64.exe" -r
 
 SET ACCESS_TOKEN_TMP_FILE=access_token.tmp
 
