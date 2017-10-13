@@ -1,18 +1,20 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "Modern App",
+  "description": "Modern web app",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Team14 Agitavit",
   "dependencies": {
 	"gatsby": "1.9.50",
 	"gatsby-link": "^1.6.17",
     "gatsby-plugin-react-helmet": "^1.0.5",
-	"gatsby-cli": "^1.1.10" 
+	"gatsby-cli": "^1.1.10",
+	"curl": "0.1.4",
+	"jq.node": "2.0.0"
   },
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
+  "license": "Agitavit",
   "main": "n/a",
   "scripts": {
     "build": "node_modules/.bin/gatsby build",
